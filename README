@@ -1,13 +1,1 @@
-Execute the command using docker:
-
-docker run --rm -i grafana/k6 run - <simulations/user.test.js
-
-
-
-1 - start docker container with a name
-docker run --name k6-test --rm -v /home/victor/Documentos/workspace/EBAC/Modulo_28/k6-test-ebac:/home -i grafana/k6 run - <simulations/user.test.js
-
-docker run --rm -v /home/k6/example/src:/src -i grafana/k6 run /src/index.js
-
-
-docker run -v /home/victor/Documentos/workspace/EBAC/Modulo_28/k6-test-ebac:/home grafana/k6 run /home/simulations/user.test.js
+Exercício de testes de performance usando a ferramenta K6
